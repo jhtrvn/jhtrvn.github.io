@@ -1,0 +1,53 @@
+.Question {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20%;
+    background: rgb(110, 78, 65);
+    color: white;
+}
+
+body {
+    background: rgb(110, 78, 65);
+}
+
+.yes {
+    position: absolute;
+    width: 100px;
+    height: 70px
+}
+
+.no {
+    width:100px;
+    height:70px;
+    position:absolute;
+}
+
+#yes-container {
+    margin-left: 42%;
+    height:100px;
+    width:70px;
+    position: relative;
+}
+
+#no-container {
+    margin-left: 50%;
+    height:100px;
+    width:70px;
+    position:relative;
+}
+.yes-answer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    position:absolute;
+    margin-left: 45%;
+    font-size: 20px;
+}
+.no-answer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:white;
+    position:absolute;
+    margin-left: 54%;
+    font-size: 20px;
+}
