@@ -1,13 +1,75 @@
-.Question {
+/* 
+Change this to change the properties of 
+"will you be my boyfriend" and "stop playing." 
+*/
+.arial_prompt {
     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
     text-align: center;
     margin-top: 20%;
     background: rgb(110, 78, 65);
-    color: white;
+    color: #fff2cc;
+}
+
+/*
+Change this to change the properties of "Devin & Jenny"
+*/
+.yes-prompt {
+    font-family: 'Rouge Script', cursive;
+    font-style: italic;
+    font-size: 120px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 13%;
+    margin-bottom: 0%;
+    color: #fff2cc;
+    transform: rotate(-7.8deg)
+}
+
+/*
+Change this to change the properties of "est. 2/22/22"
+*/
+.yes-sub-prompt {
+    font-family: 'Rouge Script', cursive;
+    font-style: italic;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 0%;
+    color: #fff2cc;
+    transform: rotate(-7.8deg)
 }
 
 body {
     background: rgb(110, 78, 65);
+}
+
+.centered-text {
+    color: #fff2cc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: transparent;
+}
+
+.yes-picture {
+    width: 10%;
+}
+
+.heart-button {
+    width: 100px;
+    height: 86px;
 }
 
 .yes {
@@ -37,16 +99,18 @@ body {
 }
 .yes-answer {
     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
     text-align: center;
-    color: white;
+    color: #fff2cc;
     position:absolute;
     margin-left: 45%;
     font-size: 20px;
 }
 .no-answer {
     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
     text-align:center;
-    color:white;
+    color:#fff2cc;
     position:absolute;
     margin-left: 54%;
     font-size: 20px;
