@@ -2,6 +2,7 @@
 Change this to change the properties of 
 "will you be my boyfriend" and "stop playing." 
 */
+
 .arial_prompt {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
@@ -11,13 +12,15 @@ Change this to change the properties of
     color: #fff2cc;
 }
 
+
 /*
 Change this to change the properties of "Devin & Jenny"
 */
+
 .yes-prompt {
     font-family: 'Rouge Script', cursive;
     font-style: italic;
-    font-size: 120px;
+    font-size: 170px;
     text-align: center;
     letter-spacing: 1px;
     margin-top: 13%;
@@ -26,13 +29,15 @@ Change this to change the properties of "Devin & Jenny"
     transform: rotate(-7.8deg)
 }
 
+
 /*
 Change this to change the properties of "est. 2/22/22"
 */
+
 .yes-sub-prompt {
     font-family: 'Rouge Script', cursive;
     font-style: italic;
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 1px;
     text-align: center;
     margin-top: 0%;
@@ -75,43 +80,47 @@ body {
 .yes {
     position: absolute;
     width: 100px;
-    height: 70px
+    height: 70px;
+    margin-left: 80%;
 }
 
 .no {
-    width:100px;
-    height:70px;
-    position:absolute;
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    margin-left: 10%;
 }
 
 #yes-container {
-    margin-left: 42%;
-    height:100px;
-    width:70px;
+    height: 100px;
+    width: 50%;
     position: relative;
+    float: left;
 }
 
 #no-container {
-    margin-left: 50%;
-    height:100px;
-    width:70px;
-    position:relative;
+    height: 100px;
+    width: 50%;
+    position: relative;
+    float: right;
 }
+
 .yes-answer {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     text-align: center;
     color: #fff2cc;
-    position:absolute;
-    margin-left: 45%;
+    position: absolute;
+    margin-left: 83.5%;
     font-size: 20px;
 }
+
 .no-answer {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    text-align:center;
-    color:#fff2cc;
-    position:absolute;
-    margin-left: 54%;
+    text-align: center;
+    color: #fff2cc;
+    position: absolute;
+    margin-left: 14%;
     font-size: 20px;
 }
